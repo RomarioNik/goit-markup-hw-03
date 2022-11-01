@@ -428,14 +428,16 @@ p {
   color: var(--second-color);
 }
 
-.address__link:hover,
-.address__link:focus {
-  color: var(--accent-color);
-}
-
 .address__link-contact {
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.address__link-contact:hover,
+.address__link-contact:focus,
+.address__link:hover,
+.address__link:focus {
+  color: var(--accent-color);
 }
 
 /* ------------- visually-hidden --------- */
